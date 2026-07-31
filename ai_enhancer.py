@@ -39,7 +39,7 @@ class AIEnhancer:
             )
 
             response = client.models.generate_content(
-                model="gemini-latest-flash", contents=prompt,
+                model="gemini-flash-latest", contents=prompt,
             )
             return response.text
 
